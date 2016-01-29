@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/yeti/bootstrap.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    
+    <body>
+        
+        <div class = "navbar navbar-inverse navbar-static-top">
+            <div class = "container">
+                
+                <a href = "home.html" class = "navbar-brand">
+                    Maria's Portfolio
+                </a>
+                
+                <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                </button>
+                
+                <div class = "collapse navbar-collapse navHeaderCollapse">
+                
+                    <ul class = "nav navbar-nav navbar-right">
+                        <li class = "active"><a href = "home.html"><i class="fa fa-home"> </i> Home</a></li>
+                        <li><a href = "article1.html">Projects</a></li>
+                        <li><a href = "carousel.html"><i class="fa fa-file-image-o"> </i> Photos</a></li>
+                        <li class = "dropdown">
+                        
+                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Social Media <b class = "caret"></b></a>
+                        <ul class = "dropdown-menu">
+                            <li><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter"> </i> Twitter</a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i> Facebook</a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/"><i class="fa fa-instagram"> </i> Instagram</a></li>
+                            <li><a target="_blank" href="https://plus.google.com/"><i class="fa fa-google-plus"> </i> Google+</a></li>
+
+                        </ul>
+                        
+                        </li>
+                        
+                        <li><a href = "#contact" data-toggle = "modal">Contact</a></li>
+                    </ul>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class = "container">
+            <div class = "jumbotron text-center">
+                <h1>Hello!</h1>
+                <p>My name is Maria and this is my portfolio</p>
+                
+            </div>
+        </div>
+        
+        <div class = "container">
+            <div class = "row">
+                                
+                <div class = "col-md-6">
+                <img src = "http://i925.photobucket.com/albums/ad100/Marwan_Nulhakam/prototype/gif_welcome.gif">                
+                </div>
+                
+                <div class = "col-md-6">
+                <h1>About Portfolio</h1><br>
+                <p class = "port">This website is a portfolio that focuses on the "skills" I have learned during high school. </p><br><br><br>
+                <a href= "article1.html" class= "btn btn-default">Projects</a>
+                </div>
+            
+            </div>
+        </div>
+        
+        <div class = "navbar navbar-default navbar-fixed-bottom">
+            
+            <div class = "container">
+                <p class = "navbar-text pull-left">Site built by Maria</p>
+                <a href = "http://www.youtube.com" class = "navbar-btn btn-danger btn pull-right">Subscribe on Youtube</a>
+            </div>
+            
+        </div>
+        
+        <div class = "modal fade" id = "contact" role = "dialog">
+            <div class = "modal-dialog">
+                <div class = "modal-content">
+                    <form class = "form-horizontal">
+                        <div class = "modal-header">
+                            <h4>Contact Maria</h4>
+                        </div>
+                        <div class = "modal-body">
+                            <div class = "form-group">
+                                <label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+                                <div class = "col-lg-10">
+                                    <input type = "text" class = "form-control" id = "contant-name" placeholder = "Full Name">
+                                </div>
+                            </div>
+                            
+                            <div class = "form-group">
+                                <label for = "contact-email" class = "col-lg-2 control-label">Email:</label>
+                                <div class = "col-lg-10">
+                                    <input type = "email" class = "form-control" id = "contant-email" placeholder = "you@example.com">
+                                </div>
+                            </div>
+                            
+                            <div class = "form-group">
+                                <label for = "contact-message" class = "col-lg-2 control-label">Message:</label>
+                                <div class = "col-lg-10">
+                                    <textarea class = "form-control" rows = "8"></textarea>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class = "modal-footer">
+                            <a class = "btn btn-default" data-dismiss = "modal">Close</a>
+                            <button class = "btn btn-primary" type = "submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src ="js/scripts.js"></script>
+    </body>
+        
+</html>
